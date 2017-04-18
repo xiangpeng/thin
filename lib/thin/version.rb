@@ -15,8 +15,8 @@ module Thin
     RACK     = [1, 0].freeze # Rack protocol version
   end
   
-  #NAME    = 'thin'.freeze
-  NAME    = ''.freeze
+  NAME    = 'thin'.freeze
+  #NAME    = ''.freeze
 
   SERVER  = "#{NAME} #{VERSION::STRING} codename #{VERSION::CODENAME}".freeze  
   
